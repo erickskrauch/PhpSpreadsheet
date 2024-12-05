@@ -69,7 +69,6 @@
         "ext-ctype": "*",
         "ext-dom": "*",
         "ext-fileinfo": "*",
-        "ext-gd": "*",
         "ext-iconv": "*",
         "ext-libxml": "*",
         "ext-mbstring": "*",
@@ -100,6 +99,7 @@
         "tecnickcom/tcpdf": "^6.5"
     },
     "suggest": {
+        "ext-gd": "Documents rendering support",
         "ext-intl": "PHP Internationalization Functions",
         "mpdf/mpdf": "Option for rendering PDF with PDF Writer",
         "dompdf/dompdf": "Option for rendering PDF with PDF Writer",
